@@ -1,0 +1,51 @@
+@import "~bootstrap/scss/bootstrap";
+.footer {
+  padding-top: 100px;
+  .fab {
+    font-size: 50px;
+    text-decoration: none;
+    margin: 20px;
+  }
+  .fa-linkedin {
+    color: #0e76a8;
+    transition: 0.4s;
+  }
+  .fa-linkedin:hover {
+    color: #1185d8;
+  }
+  .fa-github-square {
+    color: #24292e;
+    transition: 0.4s;
+  }
+  .fa-github-square:hover {
+    color: #2f3336;
+  }
+  .media {
+    background-color: #171724;
+    text-align: center;
+    p,
+    .fa-connectdevelop {
+      color: #b8b7cb;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+    }
+    p {
+      font-size: 1.5em;
+    }
+    .fa-connectdevelop {
+      font-size: 5em;
+      color: whitesmoke;
+    }
+  }
+  .copyright {
+    background-color: #0c0c17;
+    p {
+      font-size: 0.8em;
+      text-align: center;
+      color: #777779;
+    }
+    p:nth-child(2) {
+      font-size: 0.5em;
+    }
+  }
+}

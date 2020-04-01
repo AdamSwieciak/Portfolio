@@ -1,0 +1,60 @@
+@import "~bootstrap/scss/bootstrap";
+.mainPage {
+  height: 100vh;
+  font-family: "Open Sans", sans-serif, Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  .brand {
+    display: flex;
+    align-items: center;
+    .fab {
+      font-size: 1.8em;
+      margin: 5px;
+      margin-right: 25px;
+      animation: rotate 20s linear infinite;
+    }
+    .myBrand {
+      display: inline-block;
+      p {
+        margin: 0;
+      }
+    }
+  }
+  .textnav {
+    letter-spacing: 2px;
+  }
+  .mainPage__section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(../img/Mainbg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+canvas {
+  position: absolute;
+  height: 100%;
+}
+
+@keyframes bgcanim {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

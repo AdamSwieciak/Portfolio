@@ -1,0 +1,28 @@
+@import "~bootstrap/scss/bootstrap";
+.SecPage {
+  min-height: 50vh;
+  section {
+    h2 {
+      margin-left: 40px;
+    }
+    .SecPage__MyPhoto {
+      width: 250px;
+      height: 250px;
+      margin: 40px auto;
+      border-radius: 50%;
+      border: 1px solid grey;
+      background-image: url(../img/adam.JPG);
+      background-position: center;
+      background-size: cover;
+      transition: 0.4s;
+      cursor: pointer;
+    }
+    .SecPage__MyPhoto:hover {
+      transform: scale(1.05);
+    }
+    p {
+      margin-left: 20px;
+      text-align: center;
+    }
+  }
+}
