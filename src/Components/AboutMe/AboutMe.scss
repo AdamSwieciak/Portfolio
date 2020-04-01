@@ -26,3 +26,15 @@
     }
   }
 }
+
+@media (max-width: 680px) {
+  .SecPage {
+    section {
+      .SecPage__MyPhoto {
+        width: 180px;
+        height: 180px;
+        margin: 20px auto;
+      }
+    }
+  }
+}

@@ -10,6 +10,10 @@ import page2 from "../img/Przechwytywanie2.JPG";
 import page2M from "../img/Przechwytywanie2M.JPG";
 import page3 from "../img/Przechwytywanie3.JPG";
 import page3M from "../img/Przechwytywanie3M.JPG";
+import page4 from "../img/Przechwytywanie4.JPG";
+import page4M from "../img/Przechwytywanie4M.JPG";
+import page5 from "../img/Przechwytywanie5.JPG";
+import page5M from "../img/Przechwytywanie5M.JPG";
 import Bounce from "react-reveal/Bounce";
 
 const IMAGES = [
@@ -59,9 +63,37 @@ const IMAGES = [
     thumbnailWidth: 320,
     thumbnailHeight: 212,
     caption: (
+      <a
+        href="https://github.com/AdamSwieciak/Exchange-based-on-react-with-axiosapi"
+        target="blank"
+      >
+        Application for converting currencies from PLN into various currencies
+        with the current exchange rate from the NBP API based on React and Axios
+      </a>
+    )
+  },
+  {
+    src: page4,
+    thumbnail: page4M,
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    caption: (
+      <a
+        href="https://adamswieciak.github.io/Toyota-finance-service-page/"
+        target="blank"
+      >
+        Page for employees Toyota Bank Poland.
+      </a>
+    )
+  },
+  {
+    src: page5,
+    thumbnail: page5M,
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    caption: (
       <a href="https://adamswieciak.github.io/Dice-Game/" target="blank">
-        Form for entering notifications of unavailability systems, with
-        notification on e-mail
+        Game for two players, based on dominos
       </a>
     )
   }
@@ -79,7 +111,7 @@ function Portfolio() {
       <Container className="mb-5">
         <Bounce>
           <Row className="justify-content-center mb-4">
-            <Col xs={12} md={12}>
+            <Col xs={12} md={8}>
               <Gallery images={IMAGES} />
             </Col>
           </Row>

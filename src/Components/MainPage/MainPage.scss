@@ -58,3 +58,41 @@ canvas {
     transform: rotate(360deg);
   }
 }
+
+// Background position for smartphon
+@media only screen and (max-width: 1025px) and (height: 1366px) {
+  .mainPage {
+    .mainPage__section {
+      background-position-x: -340px;
+    }
+  }
+}
+@media only screen and (max-width: 750px) {
+  .mainPage {
+    .mainPage__section {
+      background-position-x: -255px;
+    }
+  }
+}
+@media screen and (max-width: 420px) and (max-height: 830px) {
+  .mainPage {
+    .mainPage__section {
+      background-position-x: -340px;
+    }
+  }
+}
+@media screen and (max-width: 420px) and (max-height: 740px) {
+  .mainPage {
+    .mainPage__section {
+      background-position-x: -300px;
+    }
+  }
+}
+
+@media screen and (max-width: 380px) and (max-height: 732px) {
+  .mainPage {
+    .mainPage__section {
+      background-position-x: -230px;
+    }
+  }
+}

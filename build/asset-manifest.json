@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.2930f4f2.chunk.css",
+    "main.js": "/Portfolio/static/js/main.9704bd73.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.9704bd73.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.ed271e06.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.ed271e06.js.map",
+    "static/js/2.29c1887d.chunk.js": "/Portfolio/static/js/2.29c1887d.chunk.js",
+    "static/js/2.29c1887d.chunk.js.map": "/Portfolio/static/js/2.29c1887d.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.8d59ad9882607017c295f627b1df952d.js": "/Portfolio/precache-manifest.8d59ad9882607017c295f627b1df952d.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.2930f4f2.chunk.css.map": "/Portfolio/static/css/main.2930f4f2.chunk.css.map",
+    "static/js/2.29c1887d.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.29c1887d.chunk.js.LICENSE.txt",
+    "static/media/Adam cert.jpg": "/Portfolio/static/media/Adam cert.ac22292a.jpg",
+    "static/media/Adam cert1.jpg": "/Portfolio/static/media/Adam cert1.654cf223.jpg",
+    "static/media/MainPage.scss": "/Portfolio/static/media/Mainbg.2ffb984d.jpg",
+    "static/media/Przechwytywanie.JPG": "/Portfolio/static/media/Przechwytywanie.176da245.JPG",
+    "static/media/Przechwytywanie1.JPG": "/Portfolio/static/media/Przechwytywanie1.842eed11.JPG",
+    "static/media/Przechwytywanie1M.JPG": "/Portfolio/static/media/Przechwytywanie1M.e29d8e37.JPG",
+    "static/media/Przechwytywanie2.JPG": "/Portfolio/static/media/Przechwytywanie2.c8e60eb8.JPG",
+    "static/media/Przechwytywanie2M.JPG": "/Portfolio/static/media/Przechwytywanie2M.305820c6.JPG",
+    "static/media/Przechwytywanie3.JPG": "/Portfolio/static/media/Przechwytywanie3.8bdeba50.JPG",
+    "static/media/Przechwytywanie3M.JPG": "/Portfolio/static/media/Przechwytywanie3M.8f93e132.JPG",
+    "static/media/PrzechwytywanieM.JPG": "/Portfolio/static/media/PrzechwytywanieM.813c2ae3.JPG",
+    "static/media/UC-09YWBJTY.jpg": "/Portfolio/static/media/UC-09YWBJTY.1184ee28.jpg",
+    "static/media/UC-8d9f6f99-6b01-4e54-a726-cc506e7e7b60.jpg": "/Portfolio/static/media/UC-8d9f6f99-6b01-4e54-a726-cc506e7e7b60.7e1b4638.jpg",
+    "static/media/UC-MZ3RJIS8.jpg": "/Portfolio/static/media/UC-MZ3RJIS8.c8cefc51.jpg",
+    "static/media/AboutMe.scss": "/Portfolio/static/media/adam.a95383f6.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ed271e06.js",
+    "static/js/2.29c1887d.chunk.js",
+    "static/css/main.2930f4f2.chunk.css",
+    "static/js/main.9704bd73.chunk.js"
+  ]
+}

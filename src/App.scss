@@ -15,6 +15,7 @@
   h2 {
     font-weight: 300;
     span {
+      font-size: 1em;
       font-weight: bold;
     }
   }
@@ -30,4 +31,13 @@
 .margiTB {
   margin-bottom: 30px;
   padding-top: 100px;
+}
+
+@media (max-width: 680px) {
+  .heading {
+    margin-bottom: 40px;
+  }
+  .margiTB {
+    padding-top: 60px;
+  }
 }

@@ -7,20 +7,29 @@ function MainPage() {
   return (
     <div id="main" className="mainPage">
       <header>
-        <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
-          <Navbar.Brand href="#home" className="brand mr-auto upperAndSpac">
+        <Navbar
+          collapseOnSelect
+          bg="dark"
+          variant="dark"
+          expand="lg"
+          fixed="top"
+        >
+          <Navbar.Brand href="#home" className="brand upperAndSpac">
             <i class="fab fa-connectdevelop"></i>
             <div className="myBrand">
               <p>adam</p> <p>Święciak</p>
             </div>
           </Navbar.Brand>
-          <Nav className="textnav mr-4">
-            <Nav.Link href="#main">Home</Nav.Link>
-            <Nav.Link href="#aboutme">About me</Nav.Link>
-            <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#certificat">Certificates</Nav.Link>
-            <Nav.Link href="#footer">Contact</Nav.Link>
-          </Nav>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="textnav ml-auto mr-4">
+              <Nav.Link href="#main">Home</Nav.Link>
+              <Nav.Link href="#aboutme">About me</Nav.Link>
+              <Nav.Link href="#projects">Projects</Nav.Link>
+              <Nav.Link href="#certificat">Certificates</Nav.Link>
+              <Nav.Link href="#footer">Contact</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
         </Navbar>
       </header>
       <section className="mainPage__section">
