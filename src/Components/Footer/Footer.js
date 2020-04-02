@@ -22,7 +22,7 @@ function Footer() {
                 <Col>
                   <Form.Control
                     type="email"
-                    placeholder="Enter email"
+                    placeholder="Email"
                     name="E-mail"
                   />
                 </Col>

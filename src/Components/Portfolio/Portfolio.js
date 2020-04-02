@@ -28,7 +28,8 @@ const IMAGES = [
         target="blank"
       >
         Application for converting currencies from PLN into various currencies
-        with the current exchange rate from the NBP API based on React and Axios
+        with the current exchange rate from the NBP API based on React and
+        Axios.
       </a>
     )
   },
@@ -53,7 +54,7 @@ const IMAGES = [
     thumbnailHeight: 212,
     caption: (
       <a href="https://adamswieciak.github.io/Dice-Game/" target="blank">
-        Game for two players, based on dominos
+        Game for two players, based on dominos.
       </a>
     )
   },
@@ -64,11 +65,11 @@ const IMAGES = [
     thumbnailHeight: 212,
     caption: (
       <a
-        href="https://github.com/AdamSwieciak/Exchange-based-on-react-with-axiosapi"
+        href="https://adamswieciak.github.io/form_Toyota_to_email/"
         target="blank"
       >
-        Application for converting currencies from PLN into various currencies
-        with the current exchange rate from the NBP API based on React and Axios
+        Form for entering notifications of unavailability systems, with
+        notification on e-mail.
       </a>
     )
   },
@@ -79,10 +80,10 @@ const IMAGES = [
     thumbnailHeight: 212,
     caption: (
       <a
-        href="https://adamswieciak.github.io/Toyota-finance-service-page/"
+        href="https://adamswieciak.github.io/Page-about-traveling/"
         target="blank"
       >
-        Page for employees Toyota Bank Poland.
+        Page about traveling based on bootstrap grid.
       </a>
     )
   },
@@ -92,8 +93,11 @@ const IMAGES = [
     thumbnailWidth: 320,
     thumbnailHeight: 212,
     caption: (
-      <a href="https://adamswieciak.github.io/Dice-Game/" target="blank">
-        Game for two players, based on dominos
+      <a
+        href="https://adamswieciak.github.io/Budgety-controller/"
+        target="blank"
+      >
+        Application to calculate budget
       </a>
     )
   }
