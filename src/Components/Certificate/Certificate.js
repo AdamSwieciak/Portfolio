@@ -6,6 +6,7 @@ import cert1 from "../img/certificate/Adam cert1.jpg";
 import cert2 from "../img/certificate/UC-8d9f6f99-6b01-4e54-a726-cc506e7e7b60.jpg";
 import cert3 from "../img/certificate/UC-09YWBJTY.jpg";
 import cert4 from "../img/certificate/UC-MZ3RJIS8.jpg";
+import cert5 from "../img/certificate/cert3.jpg";
 import Bounce from "react-reveal/Bounce";
 
 function Certificate() {
@@ -23,21 +24,9 @@ function Certificate() {
             <Bounce right>
               <Carousel className="carousel">
                 <Carousel.Item>
-                  <img className="d-block w-100" src={cert} alt="First slide" />
-                </Carousel.Item>
-
-                <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={cert1}
-                    alt="Third slide"
-                  />
-                </Carousel.Item>
-
-                <Carousel.Item>
-                  <img
-                    className="d-block w-100"
-                    src={cert2}
+                    src={cert5}
                     alt="Third slide"
                   />
                 </Carousel.Item>
@@ -46,7 +35,7 @@ function Certificate() {
                   <img
                     className="d-block w-100"
                     src={cert3}
-                    alt="Third slide"
+                    alt="Fourth slide"
                   />
                 </Carousel.Item>
 
@@ -54,8 +43,28 @@ function Certificate() {
                   <img
                     className="d-block w-100"
                     src={cert4}
-                    alt="Third slide"
+                    alt="Fifte slide"
                   />
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={cert2}
+                    alt="Secound slide"
+                  />
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={cert1}
+                    alt="First slide"
+                  />
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img className="d-block w-100" src={cert} alt="First slide" />
                 </Carousel.Item>
               </Carousel>
             </Bounce>
