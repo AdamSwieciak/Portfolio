@@ -7,7 +7,7 @@ import cert2 from "../img/certificate/UC-8d9f6f99-6b01-4e54-a726-cc506e7e7b60.jp
 import cert3 from "../img/certificate/UC-09YWBJTY.jpg";
 import cert4 from "../img/certificate/UC-MZ3RJIS8.jpg";
 import cert5 from "../img/certificate/cert3.jpg";
-import cert6 from "../img/UC-f6628248-117f-4788-b7c2-e127372bf661.jpg";
+import cert6 from "../img/certificate/UC-f66.jpg";
 import Bounce from "react-reveal/Bounce";
 
 function Certificate() {
