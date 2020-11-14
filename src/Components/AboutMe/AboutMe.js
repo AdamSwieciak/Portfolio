@@ -45,7 +45,10 @@ function AboutMe() {
                 <h3>Main Technology</h3>
                 <ul>
                   <li>JS/jquery</li>
-                  <li>React</li>
+                  <li>Angular</li>
+                  <li>Redux</li>
+                  <li>TypeScript</li>
+                  <li>React Basic</li>
                   <li>CSS</li>
                   <li>HTML 5</li>
                   <li>Bootstrap</li>
